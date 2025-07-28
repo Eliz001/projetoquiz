@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('../Imagem/perg02.avif') no-repeat center center fixed;
+    background-size:cover;
+    margin:0;
+    padding:0;
+}
+
+#quiz {
+    max-width:700px;
+    background-color:rgba(255,255,255,0.95);
+    margin:60px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 00 15px rgba(0,0,0,0.3)
+}
+h2{text-align: center;
+    color:#333
+}
+.pergunta{
+    margin-bottom: 25px;
+}
+.pergunta p{
+    font-weight: bold;
+    margin-bottom:8px;
+}
+label {
+    display:block;
+    margin-bottom:5px;
+    cursor:pointer;
+}
+button{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #6ea9e9;
+}
+#resultado{
+    margin-top: 25px;
+    padding:15px;
+    background-color: #f0f8ff;
+    border-left:5px solid #6ea9e9;
+    border-radius:8px;
+    font-size: 16px;
+}
